@@ -1,0 +1,217 @@
+body {
+	background: #142738;
+	font-family: 'Lato', serif;
+	font-size: 15px;
+	line-height: 1.5em;
+	color: #142738;
+}
+
+body.login {
+	background:  #DB1440;
+}
+h1, h2, h3, h4, h5, h6 {font-family: 'Roboto Slab', serif;}
+
+footer {text-align: center; color: #FFF;font-size: 12px; font-weight: 300;padding: 100px 0 20px 0}
+
+.login-button {
+	width: 100%;
+	margin: 70% auto 0 auto;
+	text-align: center;
+}
+
+.up-container {
+	position: relative; 
+	z-index: 300; 
+	margin-top: -120px;
+}
+
+.navbar {
+	background: #DB1440;
+	color: #FFF;
+	text-transform: uppercase;
+	border-bottom: 5px solid #173558;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #FFF;
+    background-color: #bd0f39;
+}
+
+.navbar-default .navbar-nav>.logout>a, .navbar-default .navbar-nav>.logout>a:focus, .navbar-default .navbar-nav>.logout>a:hover {
+	background-color: #173558;
+}
+
+.navbar-default .navbar-nav>.logout>a:hover {
+	color: #DB1440;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+}
+
+.logo {
+  position: relative;
+  z-index: 10;
+  margin-top: -14px;
+}
+.logo img {
+  max-width: 100%;
+}
+
+#logo-small {display: none}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+#headerwrap {
+  background-color: #2A93FC;
+  background: url(img/blu-soccer.png) no-repeat center top;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 400px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  margin-top: 55px;
+  	border-bottom: 5px solid #173558;
+}
+
+#headerwrap h1 {color: #FFFFFF;font-size: 50px; margin:0;text-shadow: 0px 0px 29px black;text-transform: capitalize}
+#headerwrap h2 {color: #FFFFFF;font-size: 30px; margin:0;font-family: 'Slabo 27px', serif;}
+
+#headerwrap p {color: #FFFFFF; font-size: 22px;text-shadow: 0px 0px 29px black;}
+
+#headerwrap a {color: #FFFFFF;text-decoration: underline}
+
+.welcome-message {margin-top: 100px}
+
+
+h2.title-box-red, h2.title-box-white, h2.title-box-blue, h2.title-box-grey {margin:0;}
+
+.title-box-red {
+	padding: 10px;
+    text-decoration: none;
+    color: #FFF;
+    display: inline-block;
+    border-right: 20px solid transparent;
+    border-bottom: 50px solid #DB1440;
+	height: 0;
+	font-size: 20px;
+	line-height: 70px;
+}
+
+.title-box-grey {
+	padding: 10px;
+    text-decoration: none;
+    color: #173558;
+    display: inline-block;
+    border-right: 20px solid transparent;
+    border-bottom: 50px solid #CCCCCC;
+	height: 0;
+	font-size: 20px;
+	line-height: 70px;
+}
+
+.title-box-white {
+	padding: 10px;
+    text-decoration: none;
+    color: #DB1440;
+    display: inline-block;
+    border-right: 20px solid transparent;
+    border-bottom: 50px solid #FFF;
+	height: 0;
+	font-size: 20px;
+	line-height: 70px;
+}
+
+.title-box-blue {
+	padding: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: inline-block;
+    border-right: 20px solid transparent;
+    border-bottom: 50px solid #173558;
+	height: 0;
+	font-size: 20px;
+	line-height: 70px;
+}
+.info-box {
+	padding: 10px;
+	min-height: 335px;
+}
+
+.shorter-info-box {
+		padding: 10px;
+	min-height: none;
+}
+.white-box {
+	background: #FFF;
+	color: #173558;
+}
+
+.red-box {
+	background: #DB1440;
+	color: #fff;
+}
+
+.grey-box {
+	background: #CCCCCC;
+	color: #173558;
+}
+.score {
+	font-size: 100px;
+	margin-top: 30px
+	}
+
+.score-summary {
+	font-weight: 300;
+	text-transform: uppercase;
+	padding: 0 0 0 5px;
+	border-left: 4px solid #bd0f39;
+	min-height: 150px;
+	}
+	
+.blue-box {
+	background: #173558;
+}
+
+.info-box h4 {font-size: 20px}
+.info-box p {
+	border-left: 1px solid #ddd;
+	padding-left: 10px;
+	margin-left: 5px;
+}
+
+.blue-box table {border-collapse: collapse;width: 100%}
+
+.blue-box thead tr {background: #0A1D31;color: #FFFFFF;}
+.blue-box thead th {padding: 5px}
+.blue-box td {padding: 5px;color: #FFF;font-weight: 300;}
+
+.blue-box tr {
+  line-height: 40px;
+  border-right: 3px solid transparent;
+  background: #102842;
+}
+.blue-box tr:hover, .blue-box tr:nth-child(2n){
+  background: green;
+}
+
+.blue-box tr:nth-child(2n) {
+  background: #0A1D31;
+}
+
+table .next-round {width: 100%}
+.next-round td {text-align: center;}
+td.team-name {width: 48%;line-height: 15px;vertical-align: middle;padding-top: 5px}
+td.team-score {width: 1%; font-size: 34px;}
+td.teams-dash {font-size: 34px;}
