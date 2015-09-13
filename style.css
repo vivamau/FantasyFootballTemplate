@@ -215,3 +215,11 @@ table .next-round {width: 100%}
 td.team-name {width: 48%;line-height: 15px;vertical-align: middle;padding-top: 5px}
 td.team-score {width: 1%; font-size: 34px;}
 td.teams-dash {font-size: 34px;}
+
+h4.team-recap {padding-left: 5px;}
+
+table.players th, table.players td {text-align: right;}
+table.players th:first-child, table.players td:first-child {text-align: left;}
+table.players td:first-child {line-height: 30px;}
+table.players th:last-child, table.players td:last-child {text-align: center;}
+table.players td:last-child {font-size: 20px}
